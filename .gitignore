@@ -1,0 +1,13 @@
+.ipynb_checkpoints
+.vscode
+__pycache__
+script/scraper.py
+data/raw
+.DS_Store
+data.zip
+
+# MyST build outputs
+_build
+
+data/tokenized
+misc
