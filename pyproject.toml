@@ -1,0 +1,19 @@
+[project]
+name = "pbl2-textanalysis"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "ipykernel>=7.4.0",
+    "janome>=0.5.0",
+    "langchain-core>=1.6.10",
+    "langchain-google-genai>=4.4.1",
+    "langchain-ollama>=1.1.0",
+    "pandas>=3.0.6",
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter-book>=2",
+]

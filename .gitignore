@@ -11,3 +11,6 @@ _build
 
 data/tokenized
 misc
+
+# uv virtual environment
+.venv
